@@ -1,0 +1,17 @@
+* {box-sizing: border-box;
+    margin: 0;}
+
+header {height: 200px;}
+h1 {
+    display: inline-block;
+    font-family: arial;
+    font-weight:600;
+    font-size:45px;
+    line: height 10px;px;
+
+}
+#logo {
+    margin-top:10px;
+    margin-bottom:25px;
+    margin-left: 15px;
+}
