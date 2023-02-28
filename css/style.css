@@ -1,17 +1,51 @@
 * {box-sizing: border-box;
-    margin: 0;}
+    margin: 0;
+    font-family: arial;}
 
-header {height: 200px;}
+header {align-items: left;
+}
 h1 {
     display: inline-block;
-    font-family: arial;
     font-weight:600;
     font-size:45px;
-    line: height 10px;px;
-
+    line-height: 90px;
+    margin-bottom:25px;
 }
 #logo {
     margin-top:10px;
     margin-bottom:25px;
     margin-left: 15px;
+    vertical-align:middle;
+}
+main {background-color: rgb(246, 248, 249);}
+nav{
+    border-radius: 5px;
+    width: 70%;
+    height: 35px;
+    margin: auto;
+    background-color: white;
+}
+#bottone-task {
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(71, 173, 241);
+    border: 0;
+    font-size: 12px;
+    padding:5px 10px;
+    margin-left: 25px;
+}
+nav{
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+#bottone-section {
+color: grey;
+border-radius: 5px;
+background-color:rgb(255, 255, 255);
+border: 1px solid grey;
+font-size: 12px;
+padding: 5px 10px;
+margin-left: 2px;
 }
