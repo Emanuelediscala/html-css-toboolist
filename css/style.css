@@ -1,14 +1,18 @@
-* {box-sizing: border-box;
-    margin: 0;
-    font-family: arial;}
+* {
+box-sizing: border-box;
+margin: 0;
+font-family: arial;}
 
-header {align-items: left;
+header{
+    align-items: left;
+    background-color: white;
+    
 }
 h1 {
     display: inline-block;
     font-weight:600;
     font-size:45px;
-    line-height: 90px;
+    line-height: 50px;
     margin-bottom:25px;
 }
 #logo {
@@ -17,14 +21,9 @@ h1 {
     margin-left: 15px;
     vertical-align:middle;
 }
-main {background-color: rgb(246, 248, 249);}
-nav{
-    border-radius: 5px;
-    width: 70%;
-    height: 35px;
-    margin: auto;
-    background-color: white;
-}
+body{background-color: rgb(246, 248, 249);}
+
+
 #bottone-task {
     color: white;
     border-radius: 5px;
@@ -34,11 +33,16 @@ nav{
     padding:5px 10px;
     margin-left: 25px;
 }
-nav{
+.nav{
     border-radius: 5px;
     width: 70%;
-    margin: auto;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     background-color: white;
+    padding: 10px;
+    
 }
 #bottone-section {
 color: grey;
@@ -48,4 +52,33 @@ border: 1px solid grey;
 font-size: 12px;
 padding: 5px 10px;
 margin-left: 2px;
+}
+.sottomenu {
+width: 70%;
+margin: 5px auto;
+background-color: white;
+}
+h2 {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    }
+section {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.check {
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 3px;
+    color: green;
+}
+.news {font-size: 18px;
+font-weight: 200;}
+.vignette {
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(71, 173, 241);
+    padding: 5px;
+    
 }
