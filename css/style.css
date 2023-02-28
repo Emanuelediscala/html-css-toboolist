@@ -4,20 +4,16 @@ margin: 0;
 font-family: arial;}
 
 header{
-    align-items: left;
-    background-color: white;
-    
+    background-color: white;    
 }
 h1 {
     display: inline-block;
     font-weight:600;
-    font-size:45px;
-    line-height: 50px;
-    margin-bottom:25px;
+    font-size:35px;
+    vertical-align:middle;
 }
 #logo {
     margin-top:10px;
-    margin-bottom:25px;
     margin-left: 15px;
     vertical-align:middle;
 }
